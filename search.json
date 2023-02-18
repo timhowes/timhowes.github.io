@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tim Howes",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     Mastodon\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a computational biologist with extensive experience in genomic data analysis and statistical modeling. At the Parker Institute for Cancer Immunotherapy, I lead projects to analyze molecular and cell profiling data from clinical trials to better understand how patients respond to immunotherapy treatments. In my prior academic research, I studied the genetic basis of morphological development and the mechanisms of gene regulation in model organisms.\nPlease see the links to the left for descriptions of previous research projects and publications."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Tim Howes",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     Mastodon\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \n\n\n\nPh.D. Chemical and Systems Biology, Stanford University\nM.Phil. Computational Biology, University of Cambridge\nB.S. Chemical Engineering, Michigan State University\n\n\n\n\n\n\nRole: Senior Data Scientist\n\nAnalyzed high-dimensional data from patient samples to understand pharmacodynamic responses to treatment and to identify relevant prognostic and predictive biomarkers.\nLed the data analysis efforts for a multi-arm prostate cancer trial studying novel drug combinations.\nLed collaborative projects with NanoString to analyze transcriptomic datasets from immuno-oncology trials and to validate spatial transcriptomic technology for use in Parker Institute projects.\nDeveloped internal software packages and infrastructure for reproducible data processing and statistical analysis.\nCoordinated with large cross-functional teams to deliver analyses for external presentations, publications, and regulatory filings.\n\n\n\n\nRole: Health Data Science Fellow\n\nProcessed high-dimensional bacterial abundance data from a pediatric Crohn’s disease cohort.\nPredicted disease states from microbiome data using supervised learning methods.\n\n\n\n\nPost-doc research in Michael Eisen’s lab\n\nModified developmental genes in Drosophila to determine how specific sequences affect patterning.\nPerformed live confocal imaging at single-nucleus resolution to track and quantify promoter activation.\n\n\n\n\nPh.D. student in David Kingsley’s lab\n\nMapped genetic loci associated with phenotype differences in fish populations (threespine stickleback) using QTL mapping, and identified specific mutations underlying evolved changes in morphology.\nCompared gene expression between marine and freshwater fish within rapidly evolving genomic regions, as part of a large-scale project to describe genetic variation across many stickleback populations.\nDesigned custom gene expression microarrays for stickleback eQTL studies, using SNP data from next-gen sequencing to optimize probe design.\nTaught summer courses on how to perform genetic mapping and how to create transgenic fish.\n\n\n\n\nMaster’s student in Michele Vendruscolo’s lab\n\nCollected protein structural data from public databases and generated initial states for simulations.\nRan parallel protein dynamics simulations on a managed compute cluster to generate ensembles of protein conformations, which were subjected to constraints derived from experimental NMR data."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Google Scholar profile\nEvolution of stickleback spines through independent cis-regulatory changes at HOXDB. JI Wucherpfennig, TR Howes, JN Au, EH Au, GAR Kingman, SD Brady, AL Herbert, TE Reimchen, MA Bell, CB Lowe, AC Dalziel, and DM Kingsley. Nature Ecology & Evolution (2022) link\nImpact of checkpoint blockade on cancer vaccine–activated CD8+ T cell responses. PM Santos, J Adamik, TR Howes, S Du, L Vujanovic, S Warren, A Gambotto, JM Kirkwood, and LH Butterfield. Journal of Experimental Medicine (2020) link\nDetecting differential copy number variation between groups of samples. CB Lowe, N Sanchez-Luege, TR Howes, SD Brady, RR Daugherty, FC Jones, MA Bell, and DM Kingsley. Genome Research (2018) link\nDorsal spine evolution in threespine sticklebacks via a splicing change in MSX2A. TR Howes, BR Summers, and DM Kingsley. BMC Biology (2017) link\nThe genomic basis of adaptive evolution in threespine sticklebacks. FC Jones, MG Grabherr, YF Chan, P Russell, E Mauceli, J Johnson, R Swofford, M Pirun, MC Zody, S White, E Birney, S Searle, J Schmutz, J Grimwood, MC Dickson, RM Myers, CT Miller, BR Summers, AK Knecht, SD Brady, H Zhang, AA Pollen, TR Howes, C Amemiya, Broad Institute Genome Assembly Team, ES Lander, F Di Palma, K Lindblad-Toh, DM Kingsley. Nature (2012) link"
+  },
+  {
+    "objectID": "research.html#evolution-of-development-and-gene-regulation",
+    "href": "research.html#evolution-of-development-and-gene-regulation",
+    "title": "Research",
+    "section": "Evolution of development and gene regulation",
+    "text": "Evolution of development and gene regulation"
+  }
+]
