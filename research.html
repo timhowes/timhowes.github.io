@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.124">
+<meta name="generator" content="quarto-1.3.231">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,11 +20,12 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -76,19 +76,21 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Research</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./research.html">Research</a></li></ol></nav>
+      <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Tim Howes</a> 
@@ -114,6 +116,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -130,7 +133,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Research</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -147,8 +150,8 @@ div.csl-indent {
 
 <section id="immunotherapy-mechanisms-and-heterogeneity-of-response" class="level2">
 <h2 class="anchored" data-anchor-id="immunotherapy-mechanisms-and-heterogeneity-of-response">Immunotherapy mechanisms and heterogeneity of response</h2>
-<p>In my work at the <a href="https://www.parkerici.org/" title="PICI website">Parker Institute for Cancer Immunotherapy</a> (PICI), I analyze tumor genomic data, imaging data, and flow/mass cytometry data from patient samples in early phase immuno-oncology trials. I have been the lead data scientist on the <a href="https://www.parkerici.org/clinical-trial/the-porter-trial/" title="PORTER trial description">PORTER trial</a>, a phase I platform trial testing novel immunotherapy combinations in metastatic castration-resistant prostate cancer. At the SITC 2022 meeting, I presented posters detailing the <a href="https://pici.app.box.com/s/p43bmvtzorxh3odbg9uu1ugh7x0scdcy" title="PORTER clinical and pharmacodynamic poster">pharmacodynamic responses</a> associated with each drug combination, as well as an exploratory analysis of <a href="https://pici.app.box.com/s/cuygrzrbqazvbva2d9mwti0ud0cfwjgh" title="PORTER biomarker associations poster">biomarkers correlated with response</a> in patients receiving FLT3L + nivolumab combo therapy.</p>
-<p>During my time at PICI, I have also led bioinformatics collaborations with NanoString, Inc., using data from their gene expression platform to identify <a href="https://nanostring.app.box.com/s/t89c9uemz4qidi1u9ccbu1brsq6d98ko" title="NanoString poster on nCounter gene expression">biological processes associated with immunotherapy response</a> in melanoma and lung cancer, and testing the performance of their <a href="https://nanostring.com/wp-content/uploads/AACR_2512.pdf" title="NanoString poster on GeoMx concordance study">GeoMx spatial transcriptomics platform</a> across multiple PICI-affiliated research institutions.</p>
+<p>In my work at the <a href="https://www.parkerici.org/" title="PICI website">Parker Institute for Cancer Immunotherapy</a> (PICI), I analyzed tumor genomic data, imaging data, and flow/mass cytometry data from patient samples in early phase immuno-oncology trials. I was the lead data scientist on the <a href="https://www.parkerici.org/clinical-trial/the-porter-trial/" title="PORTER trial description">PORTER trial</a>, a phase I platform trial testing novel immunotherapy combinations in metastatic castration-resistant prostate cancer. At the SITC 2022 meeting, I presented posters detailing the <a href="https://pici.app.box.com/s/p43bmvtzorxh3odbg9uu1ugh7x0scdcy" title="PORTER clinical and pharmacodynamic poster">pharmacodynamic responses</a> associated with each drug combination, as well as an exploratory analysis of <a href="https://pici.app.box.com/s/cuygrzrbqazvbva2d9mwti0ud0cfwjgh" title="PORTER biomarker associations poster">biomarkers correlated with response</a> in patients receiving FLT3L + nivolumab combination therapy.</p>
+<p>During my time at PICI, I also led bioinformatics collaborations with NanoString, Inc., using data from their gene expression platform to identify <a href="https://nanostring.app.box.com/s/t89c9uemz4qidi1u9ccbu1brsq6d98ko" title="NanoString poster on nCounter gene expression">biological processes associated with immunotherapy response</a> in melanoma and lung cancer, and testing the performance of their <a href="https://nanostring.com/wp-content/uploads/AACR_2512.pdf" title="NanoString poster on GeoMx concordance study">GeoMx spatial transcriptomics platform</a> across multiple PICI-affiliated research institutions.</p>
 </section>
 <section id="evolution-of-development-and-gene-regulation" class="level2">
 <h2 class="anchored" data-anchor-id="evolution-of-development-and-gene-regulation">Evolution of development and gene regulation</h2>
@@ -159,14 +162,14 @@ div.csl-indent {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-howes2017" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-howes2017" class="csl-entry" role="listitem">
 Howes, Timothy R., Brian R. Summers, and David M. Kingsley. 2017. <span>“Dorsal Spine Evolution in Threespine Sticklebacks via a Splicing Change in MSX2A.”</span> <em>BMC Biology</em> 15 (1). <a href="https://doi.org/10.1186/s12915-017-0456-5">https://doi.org/10.1186/s12915-017-0456-5</a>.
 </div>
-<div id="ref-jones2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jones2012" class="csl-entry" role="listitem">
 Jones, Felicity C., Manfred G. Grabherr, Yingguang Frank Chan, Pamela Russell, Evan Mauceli, Jeremy Johnson, Ross Swofford, et al. 2012. <span>“The Genomic Basis of Adaptive Evolution in Threespine Sticklebacks.”</span> <em>Nature</em> 484 (7392): 55–61. <a href="https://doi.org/10.1038/nature10944">https://doi.org/10.1038/nature10944</a>.
 </div>
-<div id="ref-wucherpfennig2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wucherpfennig2022" class="csl-entry" role="listitem">
 Wucherpfennig, Julia I., Timothy R. Howes, Jessica N. Au, Eric H. Au, Garrett A. Roberts Kingman, Shannon D. Brady, Amy L. Herbert, et al. 2022. <span>“Evolution of Stickleback Spines Through Independent Cis-Regulatory Changes at HOXDB.”</span> <em>Nature Ecology &amp; Evolution</em> 6 (10): 1537–52. <a href="https://doi.org/10.1038/s41559-022-01855-3">https://doi.org/10.1038/s41559-022-01855-3</a>.
 </div>
 </div></section></div></main> <!-- /main -->
